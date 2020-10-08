@@ -1,0 +1,66 @@
+body{
+    background-color: black;
+}
+
+h3{
+    color: whitesmoke;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    font: outline;
+
+}
+
+ul{ 
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+background-color: #333;
+position: fixed;
+width: 100%;
+}
+
+li{
+float: left;
+}
+
+li a {
+display: block;
+color:white;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+}
+
+input[type=text], select, textarea{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid slategrey;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+input [type=submit] {
+    background-color:black ;
+    color: whitesmoke;
+    padding: 12 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.container{
+    border-radius: 5px;
+    background-color: black;
+    padding: 20px;
+}
+
+p{ 
+text-align: left;
+color: ghostwhite   ;
+word-spacing: 3px;
+}

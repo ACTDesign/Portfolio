@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="ContactStyling.css">
+</head>
+<body>
+    <h3>Contact ACTDesign</h3>
+
+    <li><a href="Home.html">Home</a></li>
+    <li><a href="About.html">About</a></li>
+    <li><a href="Contact.html">Contact</a></li>
+</ul>
+    <div class="container">
+        <form action="action_page.php">
+            <label for="fname">first name</label>
+            <input type="text" name="firstname" id="fname" placeholder="Your Name...">
+
+            <label for="lname">last mame</label>
+            <input type="text" name="lastname" id="lname" placeholder="Your last name...">
+
+            <label for="country">Country</label>
+            <select name="country" id="country">
+                <option value="Denmark">Denmark</option>
+                <option value="UK">United Kingdom</option>
+                <option value="US">United States</option>
+            </select>
+            <label for="subject">Subject</label>
+            <textarea name="subject" id="subject" placeholder="Your message here..." style="height: 200px;" ></textarea>
+
+            <input type="submit" value="submit">
+        </form>
+    </div>
+    <footer>
+        <p>ACTDesign&trade;</p>
+    </footer>
+</body>
+</html>
